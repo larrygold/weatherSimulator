@@ -8,7 +8,9 @@ namespace WeatherSimulator
         {
             var mySimulator = new Simulator(20);
             var myStatistics = new Statistics(mySimulator);
-            mySimulator.GenerateNumbers();
+
+            mySimulator.SimulateWeather();
+
             var weatherReport = myStatistics.GenerateReport();
 
             Console.WriteLine($"# of weather changes: {weatherReport.NumberOfWeatherChanges}");

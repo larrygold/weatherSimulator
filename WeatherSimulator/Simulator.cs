@@ -5,18 +5,16 @@ namespace WeatherSimulator
 {
     public class Simulator
     {
-        public List<int> Numbers { get; } = new List<int>();
-
-        public event EventHandler<WeatherEventArgs> WeatherChanged;
-
         private int _numberOfNumbers;
+        public List<int> Numbers { get; } = new List<int>();
+        public event EventHandler<WeatherEventArgs> WeatherChanged;
 
         public Simulator(int numberOfNumbers)
         {
             _numberOfNumbers = numberOfNumbers;
         }
 
-        public void GenerateNumbers()
+        public void SimulateWeather()
         {
             var r = new Random();
 
@@ -25,11 +23,11 @@ namespace WeatherSimulator
                 var currentNumber = r.Next(0, 100);
                 var currentWeather = GetWeatherFromNumber(currentNumber);
                 var data = new WeatherEventArgs();
+
                 data.Weather = currentWeather;
-                if (WeatherChanged != null)
-                {
-                    WeatherChanged(this, data);
-                }
+
+                WeatherChanged?.Invoke(this, data);
+
                 Numbers.Add(currentNumber);
             }
         }
