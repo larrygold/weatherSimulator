@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WeatherSimulator
 {
@@ -43,23 +40,18 @@ namespace WeatherSimulator
             {
                 return Weather.Sunny;
             }
-
             else if (number < 50)
             {
                 return Weather.Cloudy;
             }
-
             else if (number < 90)
             {
                 return Weather.Rainy;
             }
-
             else
             {
                 return Weather.Stormy;
             }
-
         }
-
     }
 }
