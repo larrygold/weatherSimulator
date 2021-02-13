@@ -1,0 +1,7 @@
+C:\Users\Larry\Desktop\Code\WeatherSimulator\WeatherSimulator\bin\Debug\WeatherSimulator.exe.config
+C:\Users\Larry\Desktop\Code\WeatherSimulator\WeatherSimulator\bin\Debug\WeatherSimulator.exe
+C:\Users\Larry\Desktop\Code\WeatherSimulator\WeatherSimulator\bin\Debug\WeatherSimulator.pdb
+C:\Users\Larry\Desktop\Code\WeatherSimulator\WeatherSimulator\obj\Debug\WeatherSimulator.csprojAssemblyReference.cache
+C:\Users\Larry\Desktop\Code\WeatherSimulator\WeatherSimulator\obj\Debug\WeatherSimulator.csproj.CoreCompileInputs.cache
+C:\Users\Larry\Desktop\Code\WeatherSimulator\WeatherSimulator\obj\Debug\WeatherSimulator.exe
+C:\Users\Larry\Desktop\Code\WeatherSimulator\WeatherSimulator\obj\Debug\WeatherSimulator.pdb
